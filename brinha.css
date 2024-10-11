@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd;
+}
+
+canvas {
+    background-color: #212121;
+    border: 2px solid #03a9f4;
+    border-radius: 10px;
+}
+
+/* Estilo da linha divisória */
+.divider {
+    width: 80%;
+    height: 2px;
+    background-color: #03a9f4;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0288d1;
+}
